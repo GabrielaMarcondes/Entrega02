@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilo.css">
+    <title>WEBDEV</title>
+</head>
+<body>
+
+<header class="cabecalho"> 
+    <h1 id='ola'>GabrielaMarcondes</h1> 
+    <h2>Porque eu escolhi gestão ambiental</h2>  
+<button onClick="mudarTexto()">
+    Mudar Texto
+</button>
+    <nav>
+        <ul>
+            <li>
+                <a href="https://g1.globo.com/educacao/guia-de-carreiras/noticia/2018/12/17/gestor-ambiental-o-que-faz-onde-trabalha-e-qual-o-salario.ghtml" target="_blank">O que faz um gestor ambiental</a>
+            </li>
+            <li>
+                <a href="https://uspdigital.usp.br/jupiterweb/listarGradeCurricular?codcg=86&codcur=86100&codhab=202&tipo=N">Grade do curso de Gestão Ambiental</a>
+        
+        </ul>
+    </nav>
+        
+</header>
+<main>
+    <section>
+        <p>
+            <font face="Georgia"> Muitas pessoas me perguntam: por que Gestão Ambiental? Antes eu respondia com os mesmos clichês “é um curso interdisciplinar”, “gosto da área ambiental”, “eu estava muito na dúvida do que cursar e gestão ambiental me pareceu o certo”... Hoje, no 5° semestre do curso eu posso afirmar: “Porque eu quero ser uma profissional da área ambiental”, “Porque o nosso Planeta precisa de gente que estude sobre o meio ambiente”. Em meio há tantos crimes ambientais, catástrofes ligadas ao uso incorreto dos recursos naturais o que me estranha é ainda não saberem a importância de um gestor ambiental no cenário atual. <font face="Georgia"></font>
+</main>
+<footer>
+    <span>
+        Por: Gabriela Marcondes
+    </span>
+
+</footer>
+</body>
+
+<script>
+    /*var idade = 20
+    var naoEhTeen = !(idade >=12 && idade <= 17)
+
+    if (ehTeen)
+    console.log ('eh mesmo')
+    if (!ehTeen)
+    console.log ('realmente, n eh msm')
+
+    if (ehMaior) {
+        console.log ('parabens, eh maior de 18')
+    } else if (idade > 10) {
+        console.log ('pelo menos n eh criança')
+    } else {
+        console.log ('que pena eh criança, mais sorte na prox')
+    }
+
+    ver palavra = 'olar'
+
+    if(palavra != ' ola')
+     console.log('ola mesmo')
+
+    var b =3
+console.log () */
+
+function mudarTexto() {
+
+    var ola = document.getElementById('ola')
+    console.log (ola.textContent)
+
+if (ola.textContent == 'GabrielaMarcondes') {
+    ola.textContent ='tchau'
+    console.log (ola.textContent)
+}
+
+else if (ola.textContent == 'tchau') {
+    ola.textContent= 'GabrielaMarcondes'
+
+}
+
+
+}
+</script>
+</html>
